@@ -1,3 +1,7 @@
-body {
-    background: white url("pattern.svg") no-repeat right bottom;
+html {
+    background-image: url("pattern.svg");
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
 }
