@@ -8,9 +8,11 @@ https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
 """
 
 import os
+import sys
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "simonbihel.settings")
+sys.path.append('/srv/sites/simonbihel/simonbihel')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings")
 
 application = get_wsgi_application()
