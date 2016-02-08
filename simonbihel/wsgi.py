@@ -13,6 +13,6 @@ import sys
 from django.core.wsgi import get_wsgi_application
 
 sys.path.append('/srv/sites/simonbihel/simonbihel')
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "simonbihel.settings")
 
 application = get_wsgi_application()
