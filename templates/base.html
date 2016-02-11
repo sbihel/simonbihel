@@ -15,6 +15,27 @@
     </head>
 
     <body>
-        {% block content %}{% endblock content %}
+        <main class="wrapper">
+            <nav class="navigation">
+                <section class="container">
+                    <a class="navigation-title" href="http://simonbihel.me">
+                        <h1 class="tittle">Simon Bihel</h1>
+                    </a>
+                    <ul class="navigation-list float-right">
+                        <li class="navigation-item"></li>
+                    </ul>
+                </section>
+            </nav>
+
+            {% block content %}{% endblock content %}
+
+            <footer class="footer">
+                <section class="container">
+                    <p>
+                        Made with Django and Milligram. Licensed under the MIT License.
+                    </p>
+                </section>
+            </footer>
+        </main>
     </body>
 </html>
