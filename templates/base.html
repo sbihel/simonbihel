@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <title>Simon Bihel's website.</title>
         <!-- Google Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
         <!-- CSS Reset -->
@@ -18,11 +20,24 @@
         <main class="wrapper">
             <nav class="navigation">
                 <section class="container">
-                    <a class="navigation-title" href="http://simonbihel.me">
-                        <h1 class="tittle">Simon Bihel</h1>
+{#                    <a class="navigation-title" href="http://simonbihel.me">#}
+                    <a class="navigation-title" href="{% url "index" %}">
+                        <h1 class="title">Simon Bihel</h1>
                     </a>
+
                     <ul class="navigation-list float-right">
-                        <li class="navigation-item"></li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#popover-grid" data-popover>Résumé</a>
+                            <div class="popover" id="popover-grid">
+                                <ul class="popover-list">
+                                    <li class="popover-item">
+                                        <a class="popover-link" href="#start" title="start">
+                                            Start
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </section>
             </nav>
@@ -37,5 +52,7 @@
                 </section>
             </footer>
         </main>
+
+        <script src="{% static "script.js" %}"></script>
     </body>
 </html>

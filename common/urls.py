@@ -10,5 +10,5 @@ from . import views
 app_name = 'common'
 urlpatterns = [
     # url(r'^$', views.IndexView.as_view(), name='index'),
-    url(r'^$', TemplateView.as_view(template_name="common/index.html")),
+    url(r'^$', TemplateView.as_view(template_name="common/index.html"), name='index'),
 ]
