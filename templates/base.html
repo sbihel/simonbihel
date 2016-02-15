@@ -40,6 +40,11 @@
                                 </ul>
                             </div>
                         </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="{% url "common:projects" %}">
+                                Projects
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </nav>
@@ -47,14 +52,29 @@
             {% block content %}{% endblock content %}
 
             <footer class="footer">
+                <section class="container" id="links">
+                    <div>
+                        <a class="button button-clear" href='https://github.com/sbihel'>
+                            <img class="link-img" src="{% static "github.png" %}">
+                        </a>
+                        <a class="button button-clear" href='https://twitter.com/simon_bihel'>
+                            <img class="link-img" src="{% static "twitter.png" %}">
+                        </a>
+                        <a class="button button-clear" href='https://fr.linkedin.com/in/simon-bihel-9b8563b8'>
+                            <img class="link-img" src="{% static "linkedin.png" %}">
+                        </a>
+                    </div>
+                    <div><a href="mailto:simon.bihel@ens-rennes.fr">simon.bihel@ens-rennes.fr</a></div>
+                </section>
+
                 <section class="container">
                     <p>
-                        Made with Django and Milligram. Licensed under the MIT License.
+                        Made with Django and Milligram. Inspired by Milligram's website. Licensed under the MIT License.
                     </p>
                 </section>
             </footer>
         </main>
 
-        <script src="{% static "script.js" %}"></script>
+{#        <script src="{% static "script.js" %}"></script>#}
     </body>
 </html>

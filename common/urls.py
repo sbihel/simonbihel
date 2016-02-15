@@ -12,4 +12,5 @@ urlpatterns = [
     # url(r'^$', views.IndexView.as_view(), name='index'),
     url(r'^$', TemplateView.as_view(template_name="common/index.html"), name='index'),
     url(r'^resume', TemplateView.as_view(template_name="common/resume.html"), name='resume'),
+    url(r'^projects', TemplateView.as_view(template_name="common/projects.html"), name='projects'),
 ]
