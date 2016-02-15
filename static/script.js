@@ -10,24 +10,30 @@
         entityMapObject = {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': '&quot;', "'": '&#39;', "/": '&#x2F;'};
 
     function init() {
-        for (i = 0; i < $popoverLinks.length; i++) $popoverLinks[i].addEventListener('click', openPopover);
-        document.addEventListener('click', closePopover);
+        for (i = 0; i < $popoverLinks.length; i++) $popoverLinks[i].addEventListener('mouseover', openPopover);
+        //document.addEventListener('mouseout', closePopover);
+        for (i = 0; i < $popovers.length; i++) $popovers[i].addEventListener('mouseout', closePopover);
         buildSnippets();
         shareDialog();
     }
 
     function closePopover() {
         for (i = 0; i < $popovers.length; i++) $popovers[i].classList.remove('popover-open');
+        //for (i = 0; i < $popovers.length; i++) {
+        //    //window.alert($popovers[i].mouseover);
+        //    if (!$popovers[i].mouseover) $popovers[i].classList.remove('popover-open');
+        //}
     }
 
     function openPopover(e) {
         e.preventDefault();
-        if (document.querySelector(this.getAttribute('href')).classList.contains('popover-open')) {
-            document.querySelector(this.getAttribute('href')).classList.remove('popover-open');
+        if (document.querySelector('#popover-'.concat(this.getAttribute('href').slice(1))).classList.contains('popover-open')) {
+            document.querySelector('#popover-'.concat(this.getAttribute('href').slice(1))).classList.remove('popover-open');
         }
         else {
             closePopover();
-            document.querySelector(this.getAttribute('href')).classList.add('popover-open');
+            document.querySelector('#popover-'.concat(this.getAttribute('href').slice(1))).classList.add('popover-open');
+            //document.querySelector(this.getAttribute('href')).style.backgroundImage = "url('pattern.svg')";
         }
         e.stopImmediatePropagation();
     }

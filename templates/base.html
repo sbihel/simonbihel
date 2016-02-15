@@ -27,11 +27,13 @@
 
                     <ul class="navigation-list float-right">
                         <li class="navigation-item">
-                            <a class="navigation-link" href="#popover-grid" data-popover>Résumé</a>
-                            <div class="popover" id="popover-grid">
+                            <a class="navigation-link" href="{% url "common:resume" %}" data-popover>
+                                Résumé
+                            </a>
+                            <div class="popover" id="popover-resume">
                                 <ul class="popover-list">
                                     <li class="popover-item">
-                                        <a class="popover-link" href="#start" title="start">
+                                        <a class="popover-link" href="{% url "common:resume" %}#start" title="start">
                                             Start
                                         </a>
                                     </li>
