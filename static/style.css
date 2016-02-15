@@ -105,10 +105,6 @@
     display: block;
 }
 
-/*.navigation-item:hover {*/
-    /*background-image: url("pattern.svg");*/
-/*}*/
-
 /*.navigation .img {*/
     /*position: relative;*/
     /*top: .3rem;*/
@@ -175,16 +171,14 @@
 }
 
 .popover-item:first-child .popover-link:after {
-    border-color: transparent;
+    border: 1.0rem transparent;
     border-bottom-color: #fff;
-    border-width: 1.0rem;
     margin-left: -1.0rem;
 }
 
 .popover-item:first-child .popover-link:before {
-    border-color: rgba(238, 238, 238, 0);
+    border: 1.1rem rgba(238, 238, 238, 0);
     border-bottom-color: #d1d1d1;
-    border-width: 1.1rem;
     margin-left: -1.1rem;
 }
 

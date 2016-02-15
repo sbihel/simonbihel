@@ -20,7 +20,6 @@
         <main class="wrapper">
             <nav class="navigation">
                 <section class="container">
-{#                    <a class="navigation-title" href="http://simonbihel.me">#}
                     <a class="navigation-title" href="{% url "common:index" %}">
                         <h1 class="title">Simon Bihel</h1>
                     </a>
@@ -33,8 +32,15 @@
                             <div class="popover" id="popover-resume">
                                 <ul class="popover-list">
                                     <li class="popover-item">
-                                        <a class="popover-link" href="{% url "common:resume" %}#start" title="start">
-                                            Start
+                                        <a class="popover-link" href="{% url "common:resume" %}#personalinformation"
+                                           title="Personal Information">
+                                           Personal Information
+                                        </a>
+                                    </li>
+                                    <li class="popover-item">
+                                        <a class="popover-link" href="{% url "common:resume" %}#education"
+                                           title="Education">
+                                            Education
                                         </a>
                                     </li>
                                 </ul>
