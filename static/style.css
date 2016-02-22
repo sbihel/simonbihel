@@ -76,6 +76,12 @@
     margin-right: 5.0rem;
 }
 
+@media (min-width: 80.0rem) {
+    .navigation-list {
+        margin-right: 0;
+    }
+}
+
 .navigation-item {
     float: left;
     margin-bottom: 0;
