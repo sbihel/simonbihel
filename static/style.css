@@ -61,7 +61,7 @@
     /*max-width: 100vw;*/
     z-index: 99;
 
-    background: url("pattern.svg");
+    /*background: url("pattern.svg");*/
     background-size: cover;
 }
 
@@ -72,6 +72,8 @@
 
 .navigation {
     /*background: #f4f5f6;*/
+    /*background: #c5d5cb;*/
+    background: #BBDBD1;
     border-bottom: .1rem solid #d1d1d1;
     display: block;
     height: 5.2rem;
@@ -209,6 +211,7 @@
 .popover-link:hover {
     color: #ffffff;
     background: #9b4dca;
+    /*background: #BDEDE0;*/
 }
 
 .popover-link:hover, .popover-item:first-child .popover-link:hover:after {
