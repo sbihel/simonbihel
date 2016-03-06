@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 
 {% block content %}
 
@@ -10,7 +11,11 @@
 </header>
 
 <section class="container">
+    <div class="float-left">
+        <img class="img" alt="personal photo" src="{% static "photo_perso.jpg" %}">
+    </div>
     Computer Science student at <a href="http://www.ens-rennes.fr/">ENS Rennes</a>.
+    <div class="clearfix"></div>
 </section>
 
 {% endblock content %}
