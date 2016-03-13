@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['.simonbihel.me', '188.166.30.6']  # , '2a03:b0c0:2:d0::e7:f001
 # Application definition
 
 INSTALLED_APPS = [
+    'common',
+    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
