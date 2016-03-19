@@ -18,4 +18,8 @@
     <div class="clearfix"></div>
 </section>
 
+    {% for page in pages %}
+        {{ page.text }}
+    {% endfor %}
+
 {% endblock content %}

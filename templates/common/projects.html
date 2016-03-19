@@ -10,4 +10,8 @@
         ships or the best equipment. All that was made in Python.</p>
 </section>
 
+    {% for page in pages %}
+        {{ page.text }}
+    {% endfor %}
+
 {% endblock content %}
