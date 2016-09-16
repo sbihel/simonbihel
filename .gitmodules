@@ -1,6 +1,6 @@
 [submodule "static/milligram"]
 	path = static/milligram
 	url = https://github.com/milligram/milligram
-[submodule "static/reveal.js"]
-	path = static/reveal.js
+[submodule "static/slides/reveal.js"]
+	path = static/slides/reveal.js
 	url = https://github.com/hakimel/reveal.js/
