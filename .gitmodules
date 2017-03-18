@@ -4,3 +4,6 @@
 [submodule "static/slides/reveal.js"]
 	path = static/slides/reveal.js
 	url = https://github.com/hakimel/reveal.js/
+[submodule "static/slides/Reveal.js-TOC-Progress"]
+	path = static/slides/Reveal.js-TOC-Progress
+	url = https://github.com/e-gor/Reveal.js-TOC-Progress

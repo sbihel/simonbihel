@@ -12,14 +12,14 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
 
-		<link rel="stylesheet" href="toc-progress/toc-progress.css">
+		<link rel="stylesheet" href="Reveal.js-TOC-Progress/plugin/toc-progress/toc-progress.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
@@ -194,7 +194,7 @@
 					{ src: 'reveal.js/plugin/markdown/markdown.js' },
 					{ src: 'reveal.js/plugin/notes/notes.js', async: true },
 					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'toc-progress/toc-progress.js', async: true, callback: function() { toc_progress.initialize('scroll', 'rgba(70,70,127,0.2)'); toc_progress.create(); } }
+					{ src: 'Reveal.js-TOC-Progress/plugin/toc-progress/toc-progress.js', async: true, callback: function() { toc_progress.initialize('scroll', 'rgba(70,70,127,0.2)'); toc_progress.create(); } }
 				]
 			});
 			Reveal.configure({ slideNumber: 'c/t' });
