@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'versatileimagefield',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -128,3 +129,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+VERSATILEIMAGEFIELD_SETTINGS = {'progressive_jpeg': True}
