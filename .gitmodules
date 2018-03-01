@@ -1,9 +1,9 @@
 [submodule "static/milligram"]
 	path = static/milligram
 	url = https://github.com/milligram/milligram
-[submodule "static/slides/reveal.js"]
-	path = static/slides/reveal.js
-	url = https://github.com/hakimel/reveal.js/
-[submodule "static/slides/Reveal.js-TOC-Progress"]
-	path = static/slides/Reveal.js-TOC-Progress
-	url = https://github.com/e-gor/Reveal.js-TOC-Progress
+[submodule "static/cv"]
+	path = static/cv
+	url = https://github.com/sbihel/cv
+[submodule "static/internship_amplification"]
+	path = static/internship_amplification
+	url = https://github.com/sbihel/internship_amplification
