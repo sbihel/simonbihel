@@ -7,3 +7,6 @@
 [submodule "static/internship_amplification"]
 	path = static/internship_amplification
 	url = https://github.com/sbihel/internship_amplification
+[submodule "static/normalize.css"]
+	path = static/normalize.css
+	url = https://github.com/necolas/normalize.css/
