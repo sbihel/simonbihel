@@ -5,5 +5,10 @@
     "start_url": ".",
     "display": "browser",
     "theme_color": "#9b4dca",
-    "background_color": "#fff"
+    "background_color": "#fff",
+    "icons": [{
+        "src": "static/favicon.png",
+        "sizes": "601x600",
+        "type": "image/png"
+    }]
 }
