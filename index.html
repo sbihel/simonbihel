@@ -12,59 +12,71 @@
         <link rel="stylesheet" href="static/normalize.css/normalize.css">
         <!-- Milligram CSS minified -->
         <link rel="stylesheet" href="static/milligram/dist/milligram.min.css">
-	<meta name="theme-color" content="#9b4dca">
+        <meta name="theme-color" content="#9b4dca">
         <link rel="manifest" href="manifest.json">
+
+        <style>
+            .wrapper .container {
+                max-width: 80rem;
+            }
+            .header {
+                padding-top: 2rem;
+                margin-bottom: 5rem;
+            }
+        </style>
     </head>
 
     <body>
-        <header class="header">
+        <main class="wrapper">
+            <header class="header">
+                <section class="container">
+                    <h1>Simon Bihel</h1>
+                    <p>M.Sc. student in Computer Science at <a href="https://international.univ-rennes1.fr/">University of Rennes 1</a> and <a href="http://www.ens-rennes.fr/">École normale supérieure de Rennes</a>, France.</p>
+                    <p>Research intern at <a href="https://www.kth.se/scs">KTH</a>, Stockholm, Sweden.</p>
+                </section>
+            </header>
+
             <section class="container">
-                <h1>Simon Bihel</h1>
-                <p>M.Sc. student in Computer Science at <a href="https://international.univ-rennes1.fr/">University of Rennes 1</a> and <a href="http://www.ens-rennes.fr/">École normale supérieure de Rennes</a>, France.</p>
-                <p>Research intern at <a href="https://www.kth.se/scs">KTH</a>, Stockholm, Sweden.</p>
+                <h2>Interests</h2>
+                <ul>
+                    <li>Search-Based Software Testing</li>
+                    <li>DevOps</li>
+                </ul>
             </section>
-        </header>
 
-        <section class="container">
-            <h2>Interests</h2>
-            <ul>
-                <li>Search-Based Software Testing</li>
-                <li>DevOps</li>
-            </ul>
-        </section>
-
-        <section class="container">
-            <h2>Links</h2>
-            <ul>
-                <li><a href='mailto&#58;&#115;%69mon&#46;&#98;i%68&#37;65&#108;&#64;e&#110;s%2Dr%&#54;&#53;%6E&#110;es&#46;&#102;r'>sim&#111;&#110;&#46;bihe&#108;&#64;&#101;ns-r&#101;nn&#101;s&#46;fr</a> (PGP: <a href="https://keybase.io/sbihel/pgp_keys.asc">2D84 7F82 773F 0173</a>)</li>
-                <li><a href="https://github.com/sbihel">GitHub</a></li>
-                <li><a href="https://fr.linkedin.com/in/simon-bihel-9b8563b8">LinkedIn</a></li>
-                <li><a href="https://twitter.com/simon_bihel">Twitter</a></li>
-                <li><a href="https://keybase.io/sbihel">Keybase</a></li>
-            </ul>
-        </section>
-
-        <section class="container">
-            <h2>Résumé</h2>
-            <p><a href="static/cv/cv.pdf">CV</a></p>
-        </section>
-
-        <section class="container">
-            <h2>Internships</h2>
-            <dl>
-                <dt><strong>2018</strong> <em>Adaptation of Amplified Unit Tests for Human Comprehension</em></dt>
-                <dd>at <a href="https://www.kth.se/scs">KTH</a> (Stockholm, Sweden) with <a href="https://softwarediversity.eu/">Benoit Baudry</a> and <a href="https://www.monperrus.net/martin/">Martin Monperrus</a></dd>
-                <dt><strong>2017</strong> <em>Automated Test Data Generation for Dynamically Typed Programming Languages</em></dt>
-                <dd>at <a href="http://coinse.kaist.ac.kr">KAIST</a> (Daejeon, South-Korea) with <a href="http://coinse.kaist.ac.kr/members/shin.yoo/">Shin Yoo</a></dd>
-                <dt><strong>2016</strong> <em>Specifying The Experimental Scenarios For Simulated Cloud Studies</em></dt>
-                <dd>at <a href="https://www.irisa.fr/en">IRISA</a> (Rennes, France) with <a href="http://people.irisa.fr/Martin.Quinson/">Martin Quinson</a> and <a href="http://people.irisa.fr/Anne-Cecile.Orgerie/">Anne-Cécile Orgerie</a></dd>
-            </dl>
-        </section>
-
-        <footer class="footer">
             <section class="container">
-                <p><small>Last updated on March 8 2018</small></p>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href='mailto&#58;&#115;%69mon&#46;&#98;i%68&#37;65&#108;&#64;e&#110;s%2Dr%&#54;&#53;%6E&#110;es&#46;&#102;r'>sim&#111;&#110;&#46;bihe&#108;&#64;&#101;ns-r&#101;nn&#101;s&#46;fr</a> (PGP: <a href="https://keybase.io/sbihel/pgp_keys.asc">2D84 7F82 773F 0173</a>)</li>
+                    <li><a href="https://github.com/sbihel">GitHub</a></li>
+                    <li><a href="https://fr.linkedin.com/in/simon-bihel-9b8563b8">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/simon_bihel">Twitter</a></li>
+                    <li><a href="https://keybase.io/sbihel">Keybase</a></li>
+                </ul>
             </section>
-        </footer>
+
+            <section class="container">
+                <h2>Résumé</h2>
+                <p><a href="static/cv/cv.pdf">CV</a></p>
+            </section>
+
+            <section class="container">
+                <h2>Internships</h2>
+                <dl>
+                    <dt><strong>2018</strong> <em>Adaptation of Amplified Unit Tests for Human Comprehension</em></dt>
+                    <dd>at <a href="https://www.kth.se/scs">KTH</a> (Stockholm, Sweden) with <a href="https://softwarediversity.eu/">Benoit Baudry</a> and <a href="https://www.monperrus.net/martin/">Martin Monperrus</a></dd>
+                    <dt><strong>2017</strong> <em>Automated Test Data Generation for Dynamically Typed Programming Languages</em></dt>
+                    <dd>at <a href="http://coinse.kaist.ac.kr">KAIST</a> (Daejeon, South-Korea) with <a href="http://coinse.kaist.ac.kr/members/shin.yoo/">Shin Yoo</a></dd>
+                    <dt><strong>2016</strong> <em>Specifying The Experimental Scenarios For Simulated Cloud Studies</em></dt>
+                    <dd>at <a href="https://www.irisa.fr/en">IRISA</a> (Rennes, France) with <a href="http://people.irisa.fr/Martin.Quinson/">Martin Quinson</a> and <a href="http://people.irisa.fr/Anne-Cecile.Orgerie/">Anne-Cécile Orgerie</a></dd>
+                </dl>
+            </section>
+
+            <footer class="footer">
+                <section class="container">
+                    <p><small>Last updated on March 8 2018</small></p>
+                </section>
+            </footer>
+        </main>
     </body>
 </html>
