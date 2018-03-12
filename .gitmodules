@@ -10,3 +10,6 @@
 [submodule "static/normalize.css"]
 	path = static/normalize.css
 	url = https://github.com/necolas/normalize.css/
+[submodule "static/internship_coinse"]
+	path = static/internship_coinse
+	url = https://github.com/sbihel/internship_coinse
