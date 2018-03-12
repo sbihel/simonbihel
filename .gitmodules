@@ -13,3 +13,6 @@
 [submodule "static/internship_coinse"]
 	path = static/internship_coinse
 	url = https://github.com/sbihel/internship_coinse
+[submodule "static/internship_simgrid"]
+	path = static/internship_simgrid
+	url = https://github.com/sbihel/internship_simgrid
