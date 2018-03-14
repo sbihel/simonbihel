@@ -16,3 +16,6 @@
 [submodule "static/internship_simgrid"]
 	path = static/internship_simgrid
 	url = https://github.com/sbihel/internship_simgrid
+[submodule "static/PIM"]
+	path = static/PIM
+	url = https://framagit.org/florestan.demoor/PIM
